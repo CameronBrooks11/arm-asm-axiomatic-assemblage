@@ -1,4 +1,4 @@
-.section .vectors, "ax"
+.section .vectors, "ax" // "ax" is allocate execute
 b _start // jump to reset vector
 b dead_loop // jump to undefined instruction vector
 b dead_loop // jump to software interrupt vector
